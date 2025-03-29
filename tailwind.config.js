@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        lexend: ["Lexend", "sans-serif"], // Custom font
+      },
+
       colors: {
         lightGreen: "#CAFF33",
         darkGreen: "#22251B",
@@ -15,14 +19,33 @@ export default {
         white: "#FFFFFF",
         textGray: "#B3B3B3",
       },
+
+      fontSize: {
+        h1: "48px",   // Titles
+        h2: "38px",
+        h3: "28px",
+        bodyLg: "18px", // Body text
+        bodyMd: "16px",
+        bodySm: "14px",
+      },
+
+      borderRadius: {
+        main: "20px",
+      },
+
+      spacing: {
+        41: "162px", // Custom spacings
+        37: "150px",
+        30: "120px",
+      },
+
+      screens: {
+        xs: "390px",  // Extra Small
+        md: "992px",  // Medium
+        lg: "1440px", // Large
+        xl: "1920px", // Extra Large
+      },
     },
-    screens: {
-      xs: "390px",  // Extra Small
-      md: "992px",  // Medium
-      lg: "1440px", // Large
-      xl: "1920px", // Extra Large
-    }
   },
   plugins: [],
-}
-
+};
