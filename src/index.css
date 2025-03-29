@@ -1,3 +1,14 @@
+@import "@fontsource/lexend"; /* Must be at the top */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    * {
+        font-family: "Lexend", sans-serif; /* Use standard CSS instead of @apply */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}

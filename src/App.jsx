@@ -1,11 +1,23 @@
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MainLayout from "./Layouts/MainLayout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Careers from "./pages/Careers";
+import Security from "./pages/Security";
 
-function App() {
+const App = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-darkGray">
-      <h1 className="text-4xl font-bold text-lightGreen">Hello, Tailwind in React!</h1>
-    </div>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="careers" element={<Careers />} />
+          <Route path="security" element={<Security />} />
+        </Route>
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;
