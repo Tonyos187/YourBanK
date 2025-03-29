@@ -36,7 +36,9 @@ export default {
       spacing: {
         41: "162px", // Custom spacings
         37: "150px",
-        30: "120px",
+        31: "120px",
+        50: "50px",
+        30: "30px",
       },
 
       screens: {
