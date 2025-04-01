@@ -34,17 +34,22 @@ export default {
       },
 
       spacing: {
-        41: "162px", // Custom spacings
-        37: "150px",
-        31: "120px",
+        162: "8.4375%", // 162px
+        80: "5.555555555555556%", // 80px
+        16: "4.102564102564103%", // 16px
+        150: "150px",
+        120: "120px",
+        60: "60px",
         50: "50px",
+        40: "40px",
         30: "30px",
+        24: "24px",
       },
 
       screens: {
-        xs: "390px",  // Extra Small
+        xs: "391px",  // Extra Small
         md: "992px",  // Medium
-        lg: "1440px", // Large
+        lg: "1441px", // Large
         xl: "1920px", // Extra Large
       },
     },
