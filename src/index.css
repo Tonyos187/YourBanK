@@ -11,4 +11,14 @@
         padding: 0;
         box-sizing: border-box;
     }
+    
 }
+@layer components{
+    .ma-btn {
+        @apply font-normal lg:text-bodyLg leading-[150%] text-white py-[14px] px-[24px]  md:text-bodySm/* property btn*/
+    }
+    .add-ma-btn{
+        @apply text-gray bg-lightGreen  rounded-[140px]; /*add property when onclick*/
+    }
+}
+

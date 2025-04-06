@@ -9,6 +9,8 @@ export default {
       fontFamily: {
         lexend: ["Lexend", "sans-serif"], // Custom font
       },
+   
+      
 
       colors: {
         lightGreen: "#CAFF33",
@@ -44,12 +46,15 @@ export default {
         40: "40px",
         30: "30px",
         24: "24px",
+        20: "20px"
       },
 
       screens: {
         xs: "391px",  // Extra Small
         md: "992px",  // Medium
         lg: "1441px", // Large
+        lgx: "1700px",
+        lgxx: "724px",
         xl: "1920px", // Extra Large
       },
     },
